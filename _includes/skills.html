@@ -1,0 +1,31 @@
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3"></div>
+        <ul class="list-inline dev-icons">
+            {% for button in site.data.profile.skillButtons %}
+            <li class="list-inline-item">
+                <i class="{{ button }}"></i>
+            </li>
+            {% endfor %}
+
+        </ul>
+
+        {% for skills in site.data.profile.skills %}
+        <div class="subheading mb-3">{{ skills.title }}</div>
+        <ul>
+            {% for skill in skills.list %}
+            <li>
+                {{ skill }}
+            </li>
+            {% endfor  %}
+
+        </ul>
+        {% endfor %}
+
+
+    </div>
+</section>

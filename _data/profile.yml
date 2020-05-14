@@ -1,0 +1,139 @@
+name: ABM Tarun
+first_name: Md
+last_name: Abdullah Mia 
+location: Dhaka,Bangladesh
+side_bar_color: rgb(33, 33, 33)
+site_name: Tarun's Planet 
+
+
+about: > 
+          Hi,  I am a final-year undergrad student at the 
+          <a href="http://buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>
+
+education: 
+    - degree: B.Sc. Engg
+      institute: 
+         name : Bangladesh University of Engineering and Technology (BUET)
+         link : http://buet.ac.bd/
+      sub: Industrial and production engineering (IPE)
+      period : February 2016 - Present
+      result: 
+        - CGPA
+        - N/A
+    
+    - degree: H.S.C.(Higher Secondary Certificate)
+      institute: 
+         name : Birshreshtha Noor Mohammad Public College
+         link : https://www.noormohammadcollege.ac.bd/
+      sub: Science
+      period : 2013 - 2015
+      result: 
+        - GPA
+        - 5.00/5.00
+    
+    - degree: S.S.C.(Secondary School Certificate)
+      institute: 
+         name : Birshreshtha Noor Mohammad Public College
+         link : https://www.noormohammadcollege.ac.bd/
+      sub: Science
+      period : 2003 - 2013
+      result: 
+        - GPA
+        - 5.00/5.00
+
+#list of all skills icon here from this site https://fontawesome.com/
+skillButtons: ['fab fa-java', 'fab fa-python', 'fab fa-html5' , 'fab fa-css3-alt' ,'fab fa-js-square' ]
+
+
+skills: 
+  - title : Technical Skills
+    list:
+      - <strong>Expert:</strong> Python, C, C++, Java.
+      - <strong>Fairly Good:</strong> Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
+      - <strong>Database:</strong> MySQL, Oracle
+      - <strong>Version Control System:</strong> GitHub.
+  
+  - title: Commuication Skills
+    list: 
+      - English
+      - Bangla 
+
+
+interest:
+  - title: Research Interests
+    list: 
+      - Computation Biology
+      - Health Informatics
+      - Data Science
+      - Machine Learning
+
+  - title: Hobbies and Other Interests
+    list: 
+      - Reading books
+
+
+projects:
+    - title: UNDERGRAD PROJECTS
+      projList: 
+        - name: CONTINUOUS MONITORING AND SMART EMERGENCY WARNING SYSTEM FOR CARDIOVASCULAR PATIENTS
+          details : >  
+            Giving warning in advance for patients 
+            with arrhythmia using PPG. 
+          link: https://google.com
+
+        - name: >
+            ASSOCIATION MAPPING OF QUANTITATIVE
+                  PHENOTYPES FROM SEQUENCING READS USING
+                  K-MERS      
+          details : > 
+            Finding genome-sequence responsible for diseases which 
+            have quantitative phenotypes  
+          link: 
+          
+    
+
+awards: 
+  - <strong> Duke of Edinburgh gold award </strong>
+  - <strong>Duke of Edinburgh silver award </strong>
+  - <strong> Duke of Edinburgh Bronze Award </Strong>
+
+#for icon, go to this site: https://fontawesome.com/
+contact: 
+    mail : 
+        - abdullahmatorun786@gmail.com
+        - abdullahmia.ipebuet15@gmail.com
+    social:
+        - name: facebook
+          link:  https://www.facebook.com/abmtarun
+          icon: fab fa-facebook-f
+        
+        - name: github
+          link : https://github.com/abmtarun
+          icon: fab fa-github
+
+        - name: linkedin 
+          link : https://www.linkedin.com/in/masum-rahman-0a4364112/ 
+          icon: fab fa-linkedin-in
+
+
+experience:
+  - role: Production Engineer
+    organization:  Bashundhara 
+    experience: > 
+             Great place to work on. I really 
+             loved it's culture 
+            
+    period: March,2013 - Present
+
+  - role: Production Engineer
+    organisation:  Bashundhara 
+    experience: My experience goes here 
+    period: March,2013 - Present
+  
+
+
+
+co_curricular:
+  - <strong>Vice President @</Strong> House of volunteers BUET Branch
+  - <strong>Director @</strong>  Buet Career Club
+  - <strong>Volunteer @</strong>  Basic Right Initiative

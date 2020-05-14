@@ -1,0 +1,22 @@
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+        {% for degree in site.data.profile.education %}
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+                <h3><a href={{ degree.institute.link }}> {{ degree.institute.name }}</a></h3>
+                <div><strong>Obtained Degree:</strong> {{ degree.degree }}</div>
+                <div><strong>Subject:</strong> {{ degree.sub }}</div>
+                <p><strong>{{ degree.result[0] }}</strong> {{ degree.result[1] }}</p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">{{ degree.period }}</span>
+            </div>
+        </div>
+        {% endfor %}
+
+
+    </div>
+</section>

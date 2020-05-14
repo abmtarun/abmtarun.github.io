@@ -1,0 +1,24 @@
+<hr class="m-0">
+
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contacts">
+    <div class="w-100">
+        <h2 class="mb-5">Contact</h2>
+        <h3>Email</h3>
+        <ul>
+            {% for mail in site.data.profile.contact.mail  %}
+            <li>{{ mail }}</li>
+            {% endfor %}
+        </ul>
+
+        <br>
+        <div class="social-icons">
+            {% for social in site.data.profile.contact.social %}
+            <a href={{ social.link }}>
+                <i class="{{ social.icon }}"></i>
+            </a>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>

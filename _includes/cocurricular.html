@@ -1,0 +1,17 @@
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="co_curricular">
+    <div class="w-100">
+        <h2 class="mb-5">Co-Curricular Activities </h2>
+        <ul class="fa-ul mb-0">
+            {% for activity in site.data.profile.co_curricular  %}
+            <li>
+                <i class="fas fa-check-square"></i>
+                {{ activity }}
+            </li>
+            {% endfor %}
+        
+
+        </ul>
+    </div>
+</section>
